@@ -1,0 +1,107 @@
+body {
+	font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+	background: url('img/city.jpg') no-repeat center center fixed; 
+	background-size: cover; 	
+}
+
+.row {
+	margin-top: 200px;
+}
+
+form {
+	display: block;
+    margin-top: 0em;
+}
+
+h4 { /* Texto de Sign up */
+	display: block;
+	color: white;
+	padding: 15px 0;
+}
+
+.btn-just-icon { /* icons sociais */
+	color: white;
+	font-size: 18px;
+	padding: 10px 10px;
+}
+
+.footer .btn-info { /* botão de Get Started */
+	border: none;
+	background: white;
+	color: #3838a2;
+	border-radius: 3px;
+    position: relative;
+    padding: 12px 30px;
+    margin: 10px 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    will-change: box-shadow, transform;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .btn-info:active {
+	background: #c8e8ff;
+}
+
+.card { /* é o que dá forma à form */
+	display: inline-block; /* é o que faz o recorte em cima */
+	position: relative;
+	color: rgba(0,0,0, 0.87);
+	width: 100%;
+	border-radius: 3px; /* arredonda os cantos */
+	background: #fff; /* dá cor branca ao fundo */
+}
+
+.card .header {
+	margin: 15px;
+	border-radius: 3px;
+}
+
+.card .card-body {
+  height: 30%;
+  padding: 18px;
+}
+
+.card .card-footer {
+  height: 10%;
+  padding: 18px;
+}
+
+.card .header {
+	box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+    padding: 20px 0;
+}
+
+.card .header-primary {
+    background: linear-gradient(60deg, rgb(114, 156, 235), #020a6b);
+}
+
+.input-group .input-group-addon { /* os icons */
+    border: 0; /* tira border aos icons */
+    background: transparent; /* dá transparencias aos icons */
+    padding: 12px 15px 0px; /* posiciona os icons */
+}
+
+.card-signup .text-divider { /* texto Or be Classical */
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.card-signup .content {
+    padding: 10px 30px 10px 10px;
+}
+
+.input-group {
+	padding: 20px 0 20px 0;
+}
+
+
+
+
